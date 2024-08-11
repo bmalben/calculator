@@ -74,6 +74,8 @@ button:hover{
 #del, #ac, #plus{
     background-color: #a5a5a5;
     color: #000;
+    justify-content: center;
+    align-items: center;
 }
 #del:hover, #ac:hover, #plus:hover{
     background-color: #f5f5ff;
