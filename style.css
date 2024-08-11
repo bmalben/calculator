@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+    /* height: 300px; */
+    background-color: #000;
+    /* width: 300px; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 550px;
+    margin-top: 20vh;
+    background-color: black;
+    /* font-size: large; */
+    /* font-weight: bolder; */
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px #2b2b2b;
+}
+.head{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+button{
+    background-color: #2b2b2b;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    font-weight: 400;
+    font-size: x-large;
+    width: 60px;
+    height: 60px;
+    /* margin-left: 2px; */
+}
+.text{
+    height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+#result{
+    border: none; 
+    /* border-radius: 30px;  */
+    margin-top: 80px;
+    text-align: end;
+    background-color: #000;
+    color: #fff;
+    /* height: 150px; */
+    font-size: 40px; 
+    font-weight: 400;
+    width: 250px;
+}
+button:hover{
+    background-color: rgb(145, 145, 145);
+}
+.evl, #div, #add, #min, #mul{
+    background-color: #FF9500;
+    /* margin-right: 0; */
+    /* font-size: 30px;
+    font-weight: 500; */
+}
+.evl:hover, #div:hover, #add:hover, #min:hover, #mul:hover{
+    color: #FF9500;
+    background-color: #fff;
+}
+#del, #ac, #plus{
+    background-color: #a5a5a5;
+    color: #000;
+}
+#del:hover, #ac:hover, #plus:hover{
+    background-color: #f5f5ff;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.col{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
